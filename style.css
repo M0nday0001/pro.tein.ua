@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: 'Manrope', 'Overpass';
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.conteiner_top {
+    margin: 0;
+    width: auto;
+    max-width: 100%;
+}
+
+.header_line {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    z-index: 9;
+    height: 30px;
+    margin: 0;
+}
+
+.advertising {
+    padding-left: 20px;
+    color: black;
+    text-align: center;
+}
+
+.log {
+    justify-items: center;
+    text-align: center;
+    color: black;
+    padding-right: 20px;
+}
+
+.login {
+    padding-right: 10px;
+    letter-spacing: .1rem;
+    
+    text-decoration: none;
+    
+    color: black;
+    text-transform: uppercase;
+    
+    
+    transition: .3s ease-in-out;
+}
+.login:hover {
+    color: #5a5a5a;
+    
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+/*
+.login_icon {
+    padding-top: 1px;
+    padding-right: 10px;
+    color: black;
+    
+    transition: .3s ease-in-out;
+}
+
+.login_icon:hover {
+    color: #5a5a5a;
+
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+*/
+
+
+
+/* conteiner */
+.conteiner {
+    margin: 0 auto;
+    width: 1260px; /* горизонтальное пространство */
+    max-width: 100%;
+}
+
+/* header */
+.header {
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 50px;
+    width: 100%;
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    
+    background-color: black; 
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between; /* вложенные элементы находятся по кроям контейнера */
+    align-items: center; /* выравниваем по вертикали по центру */
+}
+
+.header_log {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: bold;
+    color: red;
+    font-size: 30px;
+    text-transform: none;
+    
+    text-align: center;
+}
+
+/* nav */
+.nav {
+    padding-top: 11px; /*отступ внутренний в блоке чтобы навигацию выровнить с лого*/
+}
+
+
+/*как определено LVHA-порядком: :link — :visited — :hover — :active.*/
+
+.nav_link {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    
+    text-transform: uppercase;
+    white-space: normal; /*удаляем лишние пробелы, оставляем только один*/
+    
+    text-align: center;
+
+    
+    text-decoration: none; /* убрать подчеркивание */
+    padding-left: 20px;
+    transition: .4s ease-in-out;
+    
+    color: white;
+
+}
+
+.nav_link:visited {
+
+    
+}
+/*принаведении курсора*/
+.nav_link:hover {
+    color: red;
+    
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+.nav_link:active {
+
+    
+}
+
+.icon {
+    background-color: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.icon:hover {
+    color: red;
+    
+    position: relative;
+    top: 1px;
+    left: 1px;
+    
+}
+
+.main {
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+   
+    max-width: 100%;
+    padding-top: 40px;
+    height: 2000px;
+    
+    background-color: #83b6d1;
+}
+
+.content {
+    display: flex;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 300;
+    color: black;
+    z-index: 2;
+    
+    width: 1260px;
+    max-height: 100%;
+  
+}
