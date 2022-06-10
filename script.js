@@ -6,3 +6,4 @@ let boo = true; // ти данный правда или ложь
 
 
 console.log(typeof userName, typeof age, typeof boo); //вывести в консоль тип данных ( строки, число, правда или ложь )
+// проверка для гитхаба
