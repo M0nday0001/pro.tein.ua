@@ -29,9 +29,37 @@ function plusUserName() {
 
 plusUserName();
 
-function simpleMath() {
-    let result = 1 + 2;
+function simpleMath(a, b) {
+    let result = a + b;
     console.log(result);
 }
 
-simpleMath();
+simpleMath(111, 242);
+
+
+function simpleMath1(a, b) {
+    let result = a + b;
+    return(result); //
+}
+
+let sum = simpleMath1(111, 242); //создаем переменную для функции 
+
+console.log(sum); //выводим переменнуб в которой находиться наша функция 
+
+
+
+window.addEventListener("scroll", function() {
+    console.log("scroll"); //выводим сообщение чтобы убедиться что функция работает
+    let scrollPos = window.scrollY;   //or pageYOffset
+
+    if(scrollPos > 0) {
+        header.classList.add('red');
+    } else {
+        header.classList.remove('red');
+    }
+
+    console.log(scrollPos); //выводим позицию в консоле для проверки 
+    //header.classList.add('red'); //к классу хедер добавляем класс ред при скролле (скорее всего заменяет класс)
+    //взяд в комментарий чтобы остался пример но не выполнялася часть функции 
+    
+});
