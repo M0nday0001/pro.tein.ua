@@ -12,3 +12,26 @@ console.log(typeof userName, typeof age, typeof boo); //вывести в кон
 
 console.log(typeof header);
 console.log(navLinks);
+
+function sayHello() { //создаем функцию 
+    let message = "Hello JS"; //создаем переменную с текстом (тип строки)
+    console.log(message); //выводим в конслоль переменную 
+}
+/* если вывести в консоль переменную message то вылетит ошибка так как функция у нас локальная и log должен быть 
+внутри этой функции  */
+
+sayHello();
+
+function plusUserName() { 
+    let message = "Hello " + userName; 
+    console.log(message); 
+}
+
+plusUserName();
+
+function simpleMath() {
+    let result = 1 + 2;
+    console.log(result);
+}
+
+simpleMath();
