@@ -1,3 +1,5 @@
+
+
 const userName = "Andrew "; // взять в скобки "" будет означать тип данных строк
 let age = 29; // просто ввести число тип данный числовой 
 let boo = true; // ти данный правда или ложь
@@ -53,13 +55,13 @@ window.addEventListener("scroll", function() {
     let scrollPos = window.scrollY;   //or pageYOffset
 
     if(scrollPos > 0) {
-        header.classList.add('red');
+        header.classList.add('grey');
     } else {
-        header.classList.remove('red');
+        header.classList.remove('grey');
     }
 
     console.log(scrollPos); //выводим позицию в консоле для проверки 
-    //header.classList.add('red'); //к классу хедер добавляем класс ред при скролле (скорее всего заменяет класс)
+    //header.classList.add('grey'); //к классу хедер добавляем класс ред при скролле (скорее всего заменяет класс)
     //взяд в комментарий чтобы остался пример но не выполнялася часть функции 
     
 });

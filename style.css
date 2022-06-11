@@ -104,8 +104,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: black; 
 }
 
-.header.red {
-    background-color: red; /* функция в js при скролле вниз добавляет этот класс */
+.header.grey {
+    background-color: rgb(49, 49, 49); /* функция в js при скролле вниз добавляет этот класс */
 }
 
 .header_top {
